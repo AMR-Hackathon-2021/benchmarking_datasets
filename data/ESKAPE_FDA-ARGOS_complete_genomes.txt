@@ -1,0 +1,105 @@
+# Assembly	Level	WGS	Chrs	BioSample	Strain	Taxonomy	Genus
+GCA_002983785.1	Complete genome	undefined	2	SAMN06173336	FDAARGOS_323	Enterococcus faecium	Enterococcus
+GCA_016727585.1	Complete genome	undefined	2	SAMN16357255	FDAARGOS_1086	Staphylococcus aureus	Staphylococcus
+GCA_016889145.1	Complete genome	undefined	3	SAMN16357388	FDAARGOS_1246	Staphylococcus aureus	Staphylococcus
+GCA_016889945.1	Complete genome	undefined	2	SAMN16357387	FDAARGOS_1245	Staphylococcus aureus	Staphylococcus
+GCA_006364675.1	Complete genome	undefined	3	SAMN11056488	FDAARGOS_773	Staphylococcus aureus	Staphylococcus
+GCA_006364775.1	Complete genome	undefined	2	SAMN11056481	FDAARGOS_766	Staphylococcus aureus	Staphylococcus
+GCA_008693765.1	Complete genome	undefined	2	SAMN11056375	FDAARGOS_660	Staphylococcus aureus	Staphylococcus
+GCA_001019485.2	Complete genome	undefined	1	SAMN03255474	FDAARGOS_35	Staphylococcus aureus	Staphylococcus
+GCA_001018845.2	Complete genome	undefined	1	SAMN03255460	FDAARGOS_21	Staphylococcus aureus	Staphylococcus
+GCA_001018775.2	Complete genome	undefined	1	SAMN03255453	FDAARGOS_14	Staphylococcus aureus	Staphylococcus
+GCA_001018685.2	Complete genome	undefined	1	SAMN03255444	FDAARGOS_4	Staphylococcus aureus	Staphylococcus
+GCA_001019535.2	Complete genome	undefined	1	SAMN03255481	FDAARGOS_42	Staphylococcus aureus	Staphylococcus
+GCA_001018975.2	Complete genome	undefined	1	SAMN03255469	FDAARGOS_30	Staphylococcus aureus	Staphylococcus
+GCA_001018915.2	Complete genome	undefined	1	SAMN03255466	FDAARGOS_27	Staphylococcus aureus	Staphylococcus
+GCA_001019435.2	Complete genome	undefined	1	SAMN03255464	FDAARGOS_25	Staphylococcus aureus	Staphylococcus
+GCA_001019415.2	Complete genome	undefined	1	SAMN03255463	FDAARGOS_24	Staphylococcus aureus	Staphylococcus
+GCA_001019395.2	Complete genome	undefined	1	SAMN03255459	FDAARGOS_20	Staphylococcus aureus	Staphylococcus
+GCA_001018735.2	Complete genome	undefined	2	SAMN03255451	FDAARGOS_12	Staphylococcus aureus	Staphylococcus
+GCA_001019275.2	Complete genome	undefined	2	SAMN03255446	FDAARGOS_7	Staphylococcus aureus	Staphylococcus
+GCA_001019575.2	Complete genome	undefined	2	SAMN03255486	FDAARGOS_47	Staphylococcus aureus	Staphylococcus
+GCA_001018835.2	Complete genome	undefined	2	SAMN03255458	FDAARGOS_19	Staphylococcus aureus	Staphylococcus
+GCA_001019305.2	Complete genome	undefined	1	SAMN03255448	FDAARGOS_9	Staphylococcus aureus	Staphylococcus
+GCA_001019255.2	Complete genome	undefined	5	SAMN03255441	FDAARGOS_1	Staphylococcus aureus	Staphylococcus
+GCA_001018645.2	Complete genome	undefined	4	SAMN03255442	FDAARGOS_2	Staphylococcus aureus	Staphylococcus
+GCA_001018655.2	Complete genome	undefined	2	SAMN03255445	FDAARGOS_6	Staphylococcus aureus	Staphylococcus
+GCA_001018725.2	Complete genome	undefined	1	SAMN03255449	FDAARGOS_10	Staphylococcus aureus	Staphylococcus
+GCA_001018805.2	Complete genome	undefined	1	SAMN03255454	FDAARGOS_15	Staphylococcus aureus	Staphylococcus
+GCA_001019495.2	Complete genome	undefined	2	SAMN03255479	FDAARGOS_40	Staphylococcus aureus	Staphylococcus
+GCA_001019125.2	Complete genome	undefined	1	SAMN03255482	FDAARGOS_43	Staphylococcus aureus	Staphylococcus
+GCA_001019205.2	Complete genome	undefined	4	SAMN03255487	FDAARGOS_48	Staphylococcus aureus	Staphylococcus
+GCA_001558795.2	Complete genome	undefined	2	SAMN03996304	FDAARGOS_159	Staphylococcus aureus	Staphylococcus
+GCA_000626615.3	Complete genome	undefined	1	SAMN02700075	FDAARGOS_5	Staphylococcus aureus	Staphylococcus
+GCA_002386245.1	Complete genome	undefined	1	SAMN07312456	FDAARGOS_412	Staphylococcus aureus	Staphylococcus
+GCA_003827915.1	Complete genome	undefined	1	SAMN10163180	FDAARGOS_504	Staphylococcus aureus	Staphylococcus
+GCA_016903395.1	Complete genome	undefined	9	SAMN16357455	FDAARGOS_1313	Klebsiella pneumoniae	Klebsiella
+GCA_016903295.1	Complete genome	undefined	9	SAMN16357465	FDAARGOS_1323	Klebsiella pneumoniae	Klebsiella
+GCA_016903255.1	Complete genome	undefined	3	SAMN16357453	FDAARGOS_1311	Klebsiella pneumoniae	Klebsiella
+GCA_016903235.1	Complete genome	undefined	8	SAMN16357466	FDAARGOS_1324	Klebsiella pneumoniae	Klebsiella
+GCA_016903195.1	Complete genome	undefined	7	SAMN16357447	FDAARGOS_1305	Klebsiella pneumoniae	Klebsiella
+GCA_016903155.1	Complete genome	undefined	7	SAMN16357468	FDAARGOS_1326	Klebsiella pneumoniae	Klebsiella
+GCA_016903115.1	Complete genome	undefined	12	SAMN16357469	FDAARGOS_1327	Klebsiella pneumoniae	Klebsiella
+GCA_016903955.1	Complete genome	undefined	5	SAMN16357451	FDAARGOS_1309	Klebsiella pneumoniae	Klebsiella
+GCA_016903795.1	Complete genome	undefined	3	SAMN16357450	FDAARGOS_1308	Klebsiella pneumoniae	Klebsiella
+GCA_016903775.1	Complete genome	undefined	5	SAMN16357449	FDAARGOS_1307	Klebsiella pneumoniae	Klebsiella
+GCA_016903755.1	Complete genome	undefined	1	SAMN16357459	FDAARGOS_1317	Klebsiella pneumoniae	Klebsiella
+GCA_016903735.1	Complete genome	undefined	4	SAMN16357467	FDAARGOS_1325	Klebsiella pneumoniae	Klebsiella
+GCA_016903515.1	Complete genome	undefined	14	SAMN16357472	FDAARGOS_1330	Klebsiella pneumoniae	Klebsiella
+GCA_016903495.1	Complete genome	undefined	2	SAMN16357454	FDAARGOS_1312	Klebsiella pneumoniae	Klebsiella
+GCA_016903475.1	Complete genome	undefined	5	SAMN16357457	FDAARGOS_1315	Klebsiella pneumoniae	Klebsiella
+GCA_016903455.1	Complete genome	undefined	1	SAMN16357460	FDAARGOS_1318	Klebsiella pneumoniae	Klebsiella
+GCA_016903895.1	Complete genome	undefined	2	SAMN16357463	FDAARGOS_1321	Klebsiella pneumoniae	Klebsiella
+GCA_016903875.1	Complete genome	undefined	2	SAMN16357471	FDAARGOS_1329	Klebsiella pneumoniae	Klebsiella
+GCA_016904035.1	Complete genome	undefined	4	SAMN16357464	FDAARGOS_1322	Klebsiella pneumoniae	Klebsiella
+GCA_016904095.1	Complete genome	undefined	2	SAMN16357461	FDAARGOS_1319	Klebsiella pneumoniae	Klebsiella
+GCA_016904595.1	Complete genome	undefined	4	SAMN16357452	FDAARGOS_1310	Klebsiella pneumoniae	Klebsiella
+GCA_016904635.1	Complete genome	undefined	1	SAMN16357462	FDAARGOS_1320	Klebsiella pneumoniae	Klebsiella
+GCA_016904415.1	Complete genome	undefined	6	SAMN16357456	FDAARGOS_1314	Klebsiella pneumoniae	Klebsiella
+GCA_016904315.1	Complete genome	undefined	3	SAMN16357458	FDAARGOS_1316	Klebsiella pneumoniae	Klebsiella
+GCA_016904295.1	Complete genome	undefined	4	SAMN16357448	FDAARGOS_1306	Klebsiella pneumoniae	Klebsiella
+GCA_016904275.1	Complete genome	undefined	6	SAMN16357470	FDAARGOS_1328	Klebsiella pneumoniae	Klebsiella
+GCA_016727425.1	Complete genome	undefined	4	SAMN16357245	FDAARGOS_1076	Klebsiella pneumoniae	Klebsiella
+GCA_006364295.1	Complete genome	undefined	5	SAMN11056490	FDAARGOS_775	Klebsiella pneumoniae	Klebsiella
+GCA_008693445.1	Complete genome	undefined	6	SAMN11056344	FDAARGOS_629	Klebsiella pneumoniae	Klebsiella
+GCA_008693425.1	Complete genome	undefined	3	SAMN11056346	FDAARGOS_631	Klebsiella pneumoniae	Klebsiella
+GCA_008693405.1	Complete genome	undefined	8	SAMN11056345	FDAARGOS_630	Klebsiella pneumoniae	Klebsiella
+GCA_003812105.1	Complete genome	undefined	6	SAMN10163226	FDAARGOS_531	Klebsiella pneumoniae	Klebsiella
+GCA_003812085.1	Complete genome	undefined	5	SAMN10163190	FDAARGOS_566	Klebsiella pneumoniae	Klebsiella
+GCA_002951635.1	Complete genome	undefined	5	SAMN03996301	FDAARGOS_156	Klebsiella pneumoniae	Klebsiella
+GCA_002587885.1	Complete genome	undefined	4	SAMN07312490	FDAARGOS_446	Klebsiella pneumoniae	Klebsiella
+GCA_002587165.1	Complete genome	undefined	5	SAMN07312488	FDAARGOS_444	Klebsiella pneumoniae	Klebsiella
+GCA_002591075.1	Complete genome	undefined	6	SAMN07312483	FDAARGOS_439	Klebsiella pneumoniae	Klebsiella
+GCA_016127515.1	Complete genome	undefined	2	SAMN16357205	FDAARGOS_1036	Acinetobacter baumannii	Acinetobacter
+GCA_016903215.1	Complete genome	undefined	2	SAMN16357501	FDAARGOS_1359	Acinetobacter baumannii	Acinetobacter
+GCA_016903135.1	Complete genome	undefined	3	SAMN16357502	FDAARGOS_1360	Acinetobacter baumannii	Acinetobacter
+GCA_003812385.1	Complete genome	undefined	3	SAMN10163228	FDAARGOS_533	Acinetobacter baumannii	Acinetobacter
+GCA_003812065.1	Complete genome	undefined	4	SAMN10163233	FDAARGOS_540	Acinetobacter baumannii	Acinetobacter
+GCA_016126955.1	Complete genome	undefined	1	SAMN16357210	FDAARGOS_1041	Pseudomonas aeruginosa	Pseudomonas
+GCA_006364735.1	Complete genome	undefined	1	SAMN11056482	FDAARGOS_767	Pseudomonas aeruginosa	Pseudomonas
+GCA_006364795.1	Complete genome	undefined	1	SAMN10346774	FDAARGOS_610	Pseudomonas aeruginosa	Pseudomonas
+GCA_003812165.1	Complete genome	undefined	3	SAMN10163227	FDAARGOS_532	Pseudomonas aeruginosa	Pseudomonas
+GCA_003813025.1	Complete genome	undefined	2	SAMN10163194	FDAARGOS_570	Pseudomonas aeruginosa	Pseudomonas
+GCA_003813005.1	Complete genome	undefined	1	SAMN10163199	FDAARGOS_505	Pseudomonas aeruginosa	Pseudomonas
+GCA_003812905.1	Complete genome	undefined	1	SAMN10163177	FDAARGOS_501	Pseudomonas aeruginosa	Pseudomonas
+GCA_003812885.1	Complete genome	undefined	1	SAMN10163195	FDAARGOS_571	Pseudomonas aeruginosa	Pseudomonas
+GCA_019048485.1	Complete genome	undefined	4	SAMN16357574	FDAARGOS 1432	Enterobacter asburiae	Enterobacter
+GCA_016027695.1	Complete genome	undefined	3	SAMN13450422	FDAARGOS_892	Enterobacter asburiae	Enterobacter
+GCA_019046905.1	Complete genome	undefined	3	SAMN16357569	FDAARGOS 1427	Enterobacter bugandensis	Enterobacter
+GCA_020099255.1	Complete genome	undefined	2	SAMN21218852	FDAARGOS_1496	Enterobacter bugandensis	Enterobacter
+GCA_020099235.1	Complete genome	undefined	2	SAMN21218853	FDAARGOS_1497	Enterobacter bugandensis	Enterobacter
+GCA_020097235.1	Complete genome	undefined	2	SAMN21218876	FDAARGOS_1520	Enterobacter bugandensis	Enterobacter
+GCA_019047785.1	Complete genome	undefined	1	SAMN16357570	FDAARGOS 1428	Enterobacter cancerogenus	Enterobacter
+GCA_019047105.1	Complete genome	undefined	3	SAMN16357573	FDAARGOS 1431	Enterobacter cloacae	Enterobacter
+GCA_000783675.2	Complete genome	undefined	1	SAMN02934530	FDAARGOS_77	Enterobacter cloacae complex sp.	Enterobacter
+GCA_019048245.1	Complete genome	undefined	3	SAMN16357575	FDAARGOS 1433	Enterobacter hormaechei	Enterobacter
+GCA_019047945.1	Complete genome	undefined	1	SAMN16357576	FDAARGOS 1434	Enterobacter hormaechei	Enterobacter
+GCA_019048625.1	Complete genome	undefined	2	SAMN16357577	FDAARGOS 1435	Enterobacter hormaechei	Enterobacter
+GCA_020097195.1	Complete genome	undefined	3	SAMN21402700	FDAARGOS_1533	Enterobacter hormaechei subsp. oharae	Enterobacter
+GCA_016725825.1	Complete genome	undefined	1	SAMN16357247	FDAARGOS_1078	Enterobacter hormaechei	Enterobacter
+GCA_008693905.1	Complete genome	undefined	1	SAMN11056357	FDAARGOS_642	Enterobacter hormaechei	Enterobacter
+GCA_019047005.1	Complete genome	undefined	1	SAMN16357578	FDAARGOS 1436	Enterobacter ludwigii	Enterobacter
+GCA_019930965.1	Complete genome	undefined	1	SAMN20888892	FDAARGOS_1475	Enterobacter ludwigii	Enterobacter
+GCA_020099215.1	Complete genome	undefined	1	SAMN21218854	FDAARGOS_1498	Enterobacter ludwigii	Enterobacter
+GCA_019047025.1	Complete genome	undefined	3	SAMN16357572	FDAARGOS 1430	Enterobacter roggenkampii	Enterobacter
+GCA_003812145.1	Complete genome	undefined	11	SAMN10163217	FDAARGOS_523	Enterobacter roggenkampii	Enterobacter
