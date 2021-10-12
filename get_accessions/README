@@ -1,0 +1,60 @@
+### Get accessions for genbank sequences using assembly accession:
+
+We need genbank accession for chromosomes and plasmids for complete assemblies.
+For example the assembly with accession GCA_002983785.1 has CP027402.1 (chromosomes) and CP027401.1 (plasmid).
+We will use assembly accession to pull genbank sequence accession.
+
+#### Create conda environment:
+conda create --name benchmarking --channel conda-forge --channel bioconda --channel defaults
+
+#### Activate environment:
+conda activate benchmarking
+
+#### Install the datasets conda package:
+conda install -c conda-forge ncbi-datasets-cli
+
+#### Get help menu:
+```
+datasets --help
+datasets is a command-line tool that is used to query and download biological sequence data
+across all domains of life from NCBI databases.
+
+Refer to NCBI's [command line quickstart](https://www.ncbi.nlm.nih.gov/datasets/docs/quickstarts/command-line-tools/) documentation for information about getting started with the command-line tools.
+
+Usage
+  datasets [command]
+
+Data Retrieval Commands
+  summary              print a summary of a gene or genome dataset
+  download             download a gene, genome or coronavirus dataset as a zip file
+  rehydrate            rehydrate a downloaded, dehydrated dataset
+
+Miscellaneous Commands
+  completion           generate autocompletion scripts
+  version              print the version of this client and exit
+  help                 Help about any command
+
+Flags
+      --api-key string   NCBI Datasets API Key
+  -h, --help             help for datasets
+      --no-progressbar   hide progress bar
+
+Use datasets help <command> for detailed help about a command.
+```
+
+#### Get file and extract accessions
+wget https://raw.githubusercontent.com/AMR-Hackathon-2021/benchmarking_datasets/main/data/ESKAPE_FDA-ARGOS_complete_genomes.txt
+
+#### Put assembly accession in one file
+cat ESKAPE_FDA-ARGOS_complete_genomes.txt | cut -f1 | grep -v "# Assembly" > assembly_accession.txt
+
+#### Download genbank information
+datasets summary genome accession --inputfile assembly_accession.txt > all.json
+
+#### Download all the genomes
+datasets download genome accession --inputfile assembly_accession.txt --exclude-gff3 --exclude-protein --exclude-rna
+
+#### install rgi
+conda install --channel conda-forge --channel bioconda --channel defaults rgi=5.2.0
+
+conda create --name rgi5.2.0 --channel conda-forge --channel bioconda --channel defaults rgi=5.2.0
