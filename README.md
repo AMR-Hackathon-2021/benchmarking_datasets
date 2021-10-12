@@ -8,7 +8,7 @@
 * [A roadmap for the generation of benchmarking resources for antimicrobial resistance detection using next generation sequencing](https://doi.org/10.12688/f1000research.39214.1)
 * [Benchmark datasets for phylogenomic pipeline validation, applications for foodborne pathogen surveillance](https://doi.org/10.7717/peerj.3893)
 * [MOB-suite: software tools for clustering, reconstruction and typing of plasmids from draft assemblies](https://dx.doi.org/10.1099%2Fmgen.0.000206) 
-&mdash;[Supplentary File 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6159552/bin/mgen-5-206-s002.xlsx) 
+&mdash;see [Supplentary File 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6159552/bin/mgen-5-206-s002.xlsx) 
 
 ## Links:
 
