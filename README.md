@@ -18,3 +18,4 @@
 * https://github.com/metagenlab/MeSS: workflow to simulate metagenomic datasets from published genomes 
 * https://www.jpiamr.eu/projects/seq4amr/ 
 * https://academic.oup.com/gigascience/pages/data_note
+* https://github.com/phac-nml/staramr/blob/master/staramr/databases/resistance/data/ARG_drug_key_resfinder.tsv
