@@ -16,3 +16,5 @@
 * https://github.com/CAMI-challenge/CAMISIM: more of a proper taxonomic simulator (i.e., can use 16S taxonomic profiles to simulate the metagenome) but doesn't handle being able to insert/label AMR genes. 
 * FDA-ARGOS bioproject : https://www.ncbi.nlm.nih.gov/bioproject/231221 
 * https://github.com/metagenlab/MeSS: workflow to simulate metagenomic datasets from published genomes 
+* https://www.jpiamr.eu/projects/seq4amr/ 
+* https://academic.oup.com/gigascience/pages/data_note
