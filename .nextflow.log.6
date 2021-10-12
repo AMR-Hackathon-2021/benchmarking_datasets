@@ -1,0 +1,71 @@
+Oct-12 18:02:45.214 [main] DEBUG nextflow.cli.Launcher - $> nextflow run nextflow/main.nf
+Oct-12 18:02:45.290 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 20.04.1
+Oct-12 18:02:45.298 [main] INFO  nextflow.cli.CmdRun - Launching `nextflow/main.nf` [determined_hugle] - revision: 80a96c2ef4
+Oct-12 18:02:45.377 [main] DEBUG nextflow.Session - Session uuid: 05eeb408-a565-4d9a-9562-1bcdb0ee0bd0
+Oct-12 18:02:45.377 [main] DEBUG nextflow.Session - Run name: determined_hugle
+Oct-12 18:02:45.378 [main] DEBUG nextflow.Session - Executor pool size: 12
+Oct-12 18:02:45.389 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 20.04.1 build 5335
+  Created: 03-05-2020 19:37 UTC (20:37 BST)
+  System: Linux 5.4.0-87-generic
+  Runtime: Groovy 2.5.8 on OpenJDK 64-Bit Server VM 1.8.0_144-b01
+  Encoding: UTF-8 (UTF-8)
+  Process: 32309@N118131 [127.0.1.1]
+  CPUs: 12 - Mem: 15.5 GB (492.2 MB) - Swap: 980 MB (970.5 MB)
+Oct-12 18:02:45.434 [main] DEBUG nextflow.Session - Work-dir: /usr/users/QIB_fr005/deolivl/Academic/Quadram/035.hackaton2021/benchmarking_datasets/work [ext2/ext3]
+Oct-12 18:02:45.434 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /usr/users/QIB_fr005/deolivl/Academic/Quadram/035.hackaton2021/benchmarking_datasets/nextflow/bin
+Oct-12 18:02:45.450 [main] DEBUG nextflow.Session - Observer factory: TowerFactory
+Oct-12 18:02:45.452 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Oct-12 18:02:45.564 [main] DEBUG nextflow.Session - Session start invoked
+Oct-12 18:02:45.960 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Oct-12 18:02:45.977 [main] DEBUG nextflow.Session - Workflow process names [dsl1]: summary, card_variants, download, get_accession_file, card_canonical
+Oct-12 18:02:46.052 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-12 18:02:46.053 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-12 18:02:46.056 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Oct-12 18:02:46.060 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=12; memory=15.5 GB; capacity=12; pollInterval=100ms; dumpInterval=5m
+Oct-12 18:02:46.151 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-12 18:02:46.151 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-12 18:02:46.155 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-12 18:02:46.155 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-12 18:02:46.157 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-12 18:02:46.158 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-12 18:02:46.162 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Oct-12 18:02:46.162 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Oct-12 18:02:46.164 [main] DEBUG nextflow.script.ScriptRunner - > Await termination 
+Oct-12 18:02:46.164 [main] DEBUG nextflow.Session - Session await
+Oct-12 18:02:46.268 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-12 18:02:46.273 [Task submitter] INFO  nextflow.Session - [0a/119f6a] Submitted process > card_canonical
+Oct-12 18:02:46.282 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-12 18:02:46.282 [Task submitter] INFO  nextflow.Session - [c3/49973d] Submitted process > card_variants
+Oct-12 18:02:46.290 [Task submitter] DEBUG nextflow.executor.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Oct-12 18:02:46.290 [Task submitter] INFO  nextflow.Session - [0e/767c7c] Submitted process > get_accession_file
+Oct-12 18:02:46.329 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: get_accession_file; status: COMPLETED; exit: 1; error: -; workDir: /usr/users/QIB_fr005/deolivl/Academic/Quadram/035.hackaton2021/benchmarking_datasets/work/0e/767c7c829dff4a8ff7b05bb0ef0824]
+Oct-12 18:02:46.346 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'get_accession_file'
+
+Caused by:
+  Process `get_accession_file` terminated with an error exit status (1)
+
+Command executed:
+
+  cat ./data/ESKAPE_FDA-ARGOS_complete_genomes.txt | cut -f1 | grep -v "# Assembly" > assembly_accession.txt
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+  cat: ./data/ESKAPE_FDA-ARGOS_complete_genomes.txt: No such file or directory
+
+Work dir:
+  /usr/users/QIB_fr005/deolivl/Academic/Quadram/035.hackaton2021/benchmarking_datasets/work/0e/767c7c829dff4a8ff7b05bb0ef0824
+
+Tip: you can try to figure out what's wrong by changing to the process work dir and showing the script file named `.command.sh`
+Oct-12 18:02:46.351 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `get_accession_file` terminated with an error exit status (1)
+Oct-12 18:02:46.368 [main] DEBUG nextflow.Session - Session await > all process finished
+Oct-12 18:02:46.368 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Oct-12 18:02:46.374 [main] WARN  n.processor.TaskPollingMonitor - Killing pending tasks (2)
+Oct-12 18:02:46.382 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=2; succeedDuration=0ms; failedDuration=1ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=3; peakCpus=3; peakMemory=0; ]
+Oct-12 18:02:46.557 [main] DEBUG nextflow.CacheDB - Closing CacheDB done
+Oct-12 18:02:46.569 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
