@@ -23,7 +23,7 @@ process download_reads {
 }
 
 process shovill_spades {
-  publishDir "${params.output}", mode: 'copy', overwrite: true
+  publishDir "${params.outdir}", mode: 'copy', overwrite: true
   input:
 		val(SRA) from shovill_spades_ch 
   output:
