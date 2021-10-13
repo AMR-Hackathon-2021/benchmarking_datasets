@@ -27,7 +27,7 @@ process download_reads {
 
 process shovill_spades {
   conda "shovill"
-  publishDir "${params.output}", mode: 'copy', overwrite: true
+  publishDir "${params.outdir}", mode: 'copy', overwrite: true
   input:
 		set val(SRA), file(f1), file(f2),  from shovill_spades_ch 
   output:
@@ -40,7 +40,7 @@ process shovill_spades {
 
 process shovill_skesa {
   conda "shovill"
-  publishDir "${params.output}", mode: 'copy', overwrite: true
+  publishDir "${params.outdir}", mode: 'copy', overwrite: true
   input:
 		set val(SRA), file(f1), file(f2),  from shovill_skesa_ch 
   output:
