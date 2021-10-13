@@ -6,7 +6,7 @@ Purpose of this script is to inject a gene into the genome
 """
 from Bio import SeqIO
 from argparse import ArgumentParser
-from random import randomint
+from random import randint
 
 def count_contigs(genome):
     number_of_contigs = 0
@@ -24,27 +24,29 @@ def injectgene(gene, contig, border):
     return newcontig
 
 def write_genome(genomedict, outfile):
-    with open(outfile, 'w') as f:
-        for name, contig in zip(genomedict.keys(), genomedict.values()):
-            f.write(f'>{name}\n{contig}')
+    for name, contig in zip(genomedict.keys(), genomedict.values()):
+        print(f'>{name}\n{contig}')
 
     
-
+def readgene(genefasta):
+    for contig in SeqIO.parse(genefasta, 'fasta'):
+        fasta = contig.seq
+    return fasta
 
 
 def injector(ingenome, gene, border, outgenome):
     numbercontigs = count_contigs(ingenome)
-    target_contig = randomint(0, numbercontigs)
-
+    target_contig = randint(0, numbercontigs)
+    gene = readgene(gene)
     genome = {}
-    for contignumber, contig in enumerate(SeqIO.parse(ingenome, 'fasta'):
+    for contignumber, contig in enumerate(SeqIO.parse(ingenome, 'fasta')):
         contigsequence = contig.seq
 
         if contignumber == target_contig:
             contigsequence = injectgene(gene, contig.seq, border) 
         genome[contig.id] = contigsequence
 
-    return genome
+    write_genome(genome, outgenome)
 
     
 
@@ -58,7 +60,10 @@ def main(command_line = None):
 
 
     args = parser.parse_args(command_line)
+
     injector(args.input_file, args.gene, args.border, args.output_file)
+
+    #print(f'injected {args.gene} in {args.input_file} outputting to {args.output_file}')
 
 if __name__ == "__main__":
     main()
