@@ -19,4 +19,4 @@
 * https://www.jpiamr.eu/projects/seq4amr/ 
 * https://academic.oup.com/gigascience/pages/data_note
 * https://github.com/phac-nml/staramr/blob/master/staramr/databases/resistance/data/ARG_drug_key_resfinder.tsv
-* https://github.com/tseemann/injecta
+* https://github.com/tseemann/injecta : Insert genes into genomes to aid synthetic test data generation
