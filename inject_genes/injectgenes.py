@@ -24,17 +24,36 @@ def injectgene(gene, contig, border):
     return newcontig
 
 def write_genome(genomedict, outfile):
-    for name, contig in zip(genomedict.keys(), genomedict.values()):
-        print(f'>{name}\n{contig}')
-
+    with open(outfile, 'w') as f:
+        for name, contig in zip(genomedict.keys(), genomedict.values()):
+            f.write(f'>{name}\n{contig}\n')
+            # print(f'>{name}\n{contig}')
     
 def readgene(genefasta):
+    """
+    return the AMR gene of interesti
+    
+    ***Caveat at this moment; only last fasta seq is returned
+    """
     for contig in SeqIO.parse(genefasta, 'fasta'):
         fasta = contig.seq
     return fasta
 
 
 def injector(ingenome, gene, border, outgenome):
+    """
+    inject a genome with a gene of interest
+
+
+    input:
+        genome of choice (fasta format),
+        gene of choice (fasta format),
+        number of bp the gene must be injected away from border of contig
+
+    output:
+        outgenome (fasta format)
+    """
+
     numbercontigs = count_contigs(ingenome)
     target_contig = randint(0, numbercontigs)
     gene = readgene(gene)
