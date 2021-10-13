@@ -58,3 +58,8 @@ datasets download genome accession --inputfile assembly_accession.txt --exclude-
 conda install --channel conda-forge --channel bioconda --channel defaults rgi=5.2.0
 
 conda create --name rgi5.2.0 --channel conda-forge --channel bioconda --channel defaults rgi=5.2.0
+
+
+## update from https://github.com/AMR-Hackathon-2021/benchmarking_datasets/issues/3#issuecomment-942392561
+cat 2021-11-12-Genomes.txt | cut -f4 | grep -v "assembly_acs" > assembly_accession_updated.txt
+datasets download genome accession --inputfile assembly_accession_updated.txt --exclude-gff3 --exclude-protein --exclude-rna
