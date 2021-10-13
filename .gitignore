@@ -1,2 +1,7 @@
 .nextflow
 .nextflow.log*
+
+
+# jupyter stuff
+
+.ipynb_checkpoints
