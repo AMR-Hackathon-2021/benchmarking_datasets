@@ -32,8 +32,12 @@ abricate --db ncbi {assembly acs}_genomic.fna > abricate.{biosample}.ncbi.txt
 abricate --summary {*abricate result files} > matrix.txt
 ```
 
+#### Observations
 
-## Comments by James when creating (and updating) file `2021-11-12-Genomes.txt`
+* `SRA accession` comes from the `2021-11-12-Genomes.txt` list
+* `2021-11-12-Genomes.txt` list was created by hand since NCBI does not offer links easily
+
+#### Comments by James when creating (and updating) file `2021-11-12-Genomes.txt`
 ```text
 I have filtered some of the genomes from the original set since they were not actually complete. These genomes have been run through the MOB-suite to label the different accessions as chromosome.
 ...
