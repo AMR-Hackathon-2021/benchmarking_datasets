@@ -1,5 +1,6 @@
 # benchmarking_datasets
 
+The corresponding metadata for the final isolates can be found can be found in [data/strain.metadata.txt](data/strain.metadata.txt)
 
 ## References:
 * [Genomic diversity affects the accuracy of bacterial single-nucleotide polymorphism–calling pipelines ](http://doi.org/10.1093/gigascience/giaa007)
