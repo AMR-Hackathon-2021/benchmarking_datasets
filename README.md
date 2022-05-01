@@ -1,5 +1,9 @@
 # benchmarking_datasets
 
+
+[![DOI](https://zenodo.org/badge/415988007.svg)](https://zenodo.org/badge/latestdoi/415988007)
+
+
 The corresponding metadata for the final isolates can be found can be found in [data/strain.metadata.txt](data/strain.metadata.txt)
 
 ## References:
